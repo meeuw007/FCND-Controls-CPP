@@ -48,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		6553774720D05D1400EAAE9D /* write_up_fcnd_controls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = write_up_fcnd_controls.pdf; path = ../../write_up_fcnd_controls.pdf; sourceTree = "<group>"; };
+		6553774920D05E2200EAAE9D /* write_up_fcnd_controls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = write_up_fcnd_controls.pdf; sourceTree = "<group>"; };
+		6553774A20D05E2400EAAE9D /* write_up_fcnd_controls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = write_up_fcnd_controls.pdf; path = ../../write_up_fcnd_controls.pdf; sourceTree = "<group>"; };
 		DB076C8A202A34C500386052 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		DB31989E20334078008ACD56 /* Simulation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Simulation.txt; path = ../config/Simulation.txt; sourceTree = "<group>"; };
 		DB3198A320334078008ACD56 /* QuadPhysicalParams.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuadPhysicalParams.txt; path = ../config/QuadPhysicalParams.txt; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		DB31989C2033405F008ACD56 /* config */ = {
 			isa = PBXGroup;
 			children = (
+				6553774920D05E2200EAAE9D /* write_up_fcnd_controls.pdf */,
 				DBD204FA203636AA00E0F55A /* 1_Intro.txt */,
 				DBD204F4203636AA00E0F55A /* 2_AttitudeControl.txt */,
 				DBD204F6203636AA00E0F55A /* 3_PositionControl.txt */,
@@ -202,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD204F12036369000E0F55A /* QuadControl.h */,
+				6553774A20D05E2400EAAE9D /* write_up_fcnd_controls.pdf */,
 				DB49FB35202A0CC600DED4E6 /* BaseController.cpp */,
 				DBD204F22036369000E0F55A /* QuadControl.cpp */,
 				DB49FB36202A0CC600DED4E6 /* BaseController.h */,
