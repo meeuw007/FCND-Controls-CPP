@@ -50,6 +50,8 @@
 		6553774720D05D1400EAAE9D /* write_up_fcnd_controls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = write_up_fcnd_controls.pdf; path = ../../write_up_fcnd_controls.pdf; sourceTree = "<group>"; };
 		6553774920D05E2200EAAE9D /* write_up_fcnd_controls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = write_up_fcnd_controls.pdf; sourceTree = "<group>"; };
 		6553774A20D05E2400EAAE9D /* write_up_fcnd_controls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = write_up_fcnd_controls.pdf; path = ../../write_up_fcnd_controls.pdf; sourceTree = "<group>"; };
+		6553774B20D05F1400EAAE9D /* write_up_fcnd_controls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = write_up_fcnd_controls.pdf; sourceTree = "<group>"; };
+		6553774C20D05F3E00EAAE9D /* write_up_fcnd_controls.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = write_up_fcnd_controls.pdf; path = ../../write_up_fcnd_controls.pdf; sourceTree = "<group>"; };
 		DB076C8A202A34C500386052 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		DB31989E20334078008ACD56 /* Simulation.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Simulation.txt; path = ../config/Simulation.txt; sourceTree = "<group>"; };
 		DB3198A320334078008ACD56 /* QuadPhysicalParams.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuadPhysicalParams.txt; path = ../config/QuadPhysicalParams.txt; sourceTree = "<group>"; };
@@ -162,10 +164,11 @@
 		DB47A218205151CB00F34E67 /* MavlinkNode */ = {
 			isa = PBXGroup;
 			children = (
+				DB49FB37202A0CC600DED4E6 /* Common.h */,
 				DB47A219205151FD00F34E67 /* MavlinkNode.cpp */,
 				DB47A21A205151FD00F34E67 /* MavlinkNode.h */,
-				DB47A21E205151FE00F34E67 /* MavlinkTranslation.cpp */,
 				DB47A21B205151FE00F34E67 /* MavlinkTranslation.h */,
+				DB47A21E205151FE00F34E67 /* MavlinkTranslation.cpp */,
 				DB47A21F205151FE00F34E67 /* PracticalSocket.cpp */,
 				DB47A21C205151FE00F34E67 /* PracticalSocket.h */,
 				DB47A21D205151FE00F34E67 /* UDPPacket.h */,
@@ -204,12 +207,13 @@
 		DB49FB34202A0CC600DED4E6 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				6553774C20D05F3E00EAAE9D /* write_up_fcnd_controls.pdf */,
 				DBD204F12036369000E0F55A /* QuadControl.h */,
 				6553774A20D05E2400EAAE9D /* write_up_fcnd_controls.pdf */,
 				DB49FB35202A0CC600DED4E6 /* BaseController.cpp */,
+				6553774B20D05F1400EAAE9D /* write_up_fcnd_controls.pdf */,
 				DBD204F22036369000E0F55A /* QuadControl.cpp */,
 				DB49FB36202A0CC600DED4E6 /* BaseController.h */,
-				DB49FB37202A0CC600DED4E6 /* Common.h */,
 				DB49FB38202A0CC600DED4E6 /* ControllerFactory.h */,
 				DB49FB39202A0CC600DED4E6 /* DataSource.h */,
 				DB49FB59202A0CC600DED4E6 /* Simulation */,
