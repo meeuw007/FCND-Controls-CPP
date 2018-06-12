@@ -10,7 +10,7 @@
 
 [Quad]
 # mass [kg]
-Mass = 0.5
+Mass = .5
 
 # distance from vehicle origin to motors [m]
 L = 0.17
@@ -20,7 +20,7 @@ cx = 0
 cy = 0
 
 # moments of inertia (assumed diagonal) [kg m2]
-Ixx = 0.0023
+Ixx = 0.0023//0.0023
 Iyy = 0.0023
 Izz = 0.0046
 
